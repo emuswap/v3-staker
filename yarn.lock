@@ -1284,18 +1284,18 @@
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
-"@uniswap/v3-core@git+https://github.com/etcswap/v3-core.git#etcswap":
+"@uniswap/v3-core@git+https://github.com/emuswap/v3-core.git#emuswap":
   version "1.0.1"
-  resolved "git+https://github.com/etcswap/v3-core.git#9200d0cbd1aca285004f53811c29674bc9c5e798"
+  resolved "git+https://github.com/emuswap/v3-core.git#d8b1c635c275d2a9450bd6a78f3fa2484fef73eb"
 
-"@uniswap/v3-periphery@git+https://github.com/etcswap/v3-periphery.git#etcswap":
+"@uniswap/v3-periphery@git+https://github.com/emuswap/v3-periphery.git#emuswap":
   version "1.4.4"
-  resolved "git+https://github.com/etcswap/v3-periphery.git#341ddb195398b121944a1d7e358e9ae99fa6d27e"
+  resolved "git+https://github.com/emuswap/v3-periphery.git#1e762e5d383c3c2addc81ed27f1e8d3d52f6a46e"
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/lib" "^4.0.1-alpha"
     "@uniswap/v2-core" "^1.0.1"
-    "@uniswap/v3-core" "git+https://github.com/etcswap/v3-core.git#etcswap"
+    "@uniswap/v3-core" "git+https://github.com/emuswap/v3-core.git#emuswap"
     base64-sol "1.0.1"
 
 "@yarnpkg/lockfile@^1.1.0":
